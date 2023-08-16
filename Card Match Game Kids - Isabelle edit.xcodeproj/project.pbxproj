@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3102C996204E4BBF00485F9D /* PausingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102C995204E4BBF00485F9D /* PausingScreenViewController.swift */; };
+		3102C9A1204F117A00485F9D /* orange to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C999204F117900485F9D /* orange to pink.mp4 */; };
+		3102C9A2204F117A00485F9D /* blue to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99A204F117900485F9D /* blue to pink.mp4 */; };
+		3102C9A3204F117A00485F9D /* pink to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99B204F117900485F9D /* pink to blue.mp4 */; };
+		3102C9A4204F117A00485F9D /* start to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99C204F117900485F9D /* start to pink.mp4 */; };
+		3102C9A5204F117A00485F9D /* orange to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99D204F117900485F9D /* orange to blue.mp4 */; };
+		3102C9A6204F117A00485F9D /* start to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99E204F117900485F9D /* start to orange.mp4 */; };
+		3102C9A7204F117A00485F9D /* pink to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99F204F117900485F9D /* pink to orange.mp4 */; };
+		3102C9A8204F117A00485F9D /* start to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C9A0204F117900485F9D /* start to blue.mp4 */; };
+		311109E8237C8D630062E8ED /* correct-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 311109E7237C8D630062E8ED /* correct-sound.wav */; };
+		311109E9237C8D630062E8ED /* correct-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 311109E7237C8D630062E8ED /* correct-sound.wav */; };
+		3145D29D2152D17B00EC16E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AA7201CF1C400E32699 /* ViewController.swift */; };
+		3145D29E2152D17B00EC16E7 /* GameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B422042445E00A0F3DA /* GameCompleteViewController.swift */; };
+		3145D29F2152D17B00EC16E7 /* PausingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102C995204E4BBF00485F9D /* PausingScreenViewController.swift */; };
+		3145D2A02152D17B00EC16E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AA5201CF1C400E32699 /* AppDelegate.swift */; };
+		3145D2A12152D17B00EC16E7 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B442043821900A0F3DA /* CSVWriter.swift */; };
+		3145D2A22152D17B00EC16E7 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AB7201CF6E000E32699 /* CardModel.swift */; };
+		3145D2A32152D17B00EC16E7 /* UnpauseConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */; };
+		3145D2A42152D17B00EC16E7 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168DF205A16C6000D3591 /* InstructionsViewController.swift */; };
+		3145D2A52152D17B00EC16E7 /* IDScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E04E5202F8C450061EF28 /* IDScreenViewController.swift */; };
+		3145D2A62152D17B00EC16E7 /* PausedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B4620438F0C00A0F3DA /* PausedHandler.swift */; };
+		3145D2A72152D17B00EC16E7 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958ABB201D1D3000E32699 /* CardCollectionViewCell.swift */; };
+		3145D2A82152D17B00EC16E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AB9201CFCCF00E32699 /* Card.swift */; };
+		3145D2AB2152D17B00EC16E7 /* orange to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C999204F117900485F9D /* orange to pink.mp4 */; };
+		3145D2AC2152D17B00EC16E7 /* blue to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99A204F117900485F9D /* blue to pink.mp4 */; };
+		3145D2AD2152D17B00EC16E7 /* pink to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99B204F117900485F9D /* pink to blue.mp4 */; };
+		3145D2AE2152D17B00EC16E7 /* start to pink.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99C204F117900485F9D /* start to pink.mp4 */; };
+		3145D2AF2152D17B00EC16E7 /* orange to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99D204F117900485F9D /* orange to blue.mp4 */; };
+		3145D2B02152D17B00EC16E7 /* start to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99E204F117900485F9D /* start to orange.mp4 */; };
+		3145D2B12152D17B00EC16E7 /* pink to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99F204F117900485F9D /* pink to orange.mp4 */; };
+		3145D2B22152D17B00EC16E7 /* start to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C9A0204F117900485F9D /* start to blue.mp4 */; };
+		3145D2B32152D17B00EC16E7 /* blue to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31FE09D920444D2C00DDD4E7 /* blue to orange.mp4 */; };
+		3145D2B52152D17B00EC16E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31958AAE201CF1C400E32699 /* LaunchScreen.storyboard */; };
+		3145D2B62152D17B00EC16E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31958AAC201CF1C400E32699 /* Assets.xcassets */; };
+		3145D2B72152D17B00EC16E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31958AA9201CF1C400E32699 /* Main.storyboard */; };
+		315E04E6202F8C450061EF28 /* IDScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E04E5202F8C450061EF28 /* IDScreenViewController.swift */; };
+		316168E0205A16C6000D3591 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168DF205A16C6000D3591 /* InstructionsViewController.swift */; };
+		316168E2205A1745000D3591 /* UnpauseConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */; };
+		31958AA6201CF1C400E32699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AA5201CF1C400E32699 /* AppDelegate.swift */; };
+		31958AA8201CF1C400E32699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AA7201CF1C400E32699 /* ViewController.swift */; };
+		31958AAB201CF1C400E32699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31958AA9201CF1C400E32699 /* Main.storyboard */; };
+		31958AAD201CF1C400E32699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31958AAC201CF1C400E32699 /* Assets.xcassets */; };
+		31958AB0201CF1C400E32699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31958AAE201CF1C400E32699 /* LaunchScreen.storyboard */; };
+		31958AB8201CF6E000E32699 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AB7201CF6E000E32699 /* CardModel.swift */; };
+		31958ABA201CFCCF00E32699 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AB9201CFCCF00E32699 /* Card.swift */; };
+		31958ABC201D1D3000E32699 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958ABB201D1D3000E32699 /* CardCollectionViewCell.swift */; };
+		31A80B432042445E00A0F3DA /* GameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B422042445E00A0F3DA /* GameCompleteViewController.swift */; };
+		31A80B452043821900A0F3DA /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B442043821900A0F3DA /* CSVWriter.swift */; };
+		31A80B4720438F0C00A0F3DA /* PausedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80B4620438F0C00A0F3DA /* PausedHandler.swift */; };
+		31FE09DA20444D2C00DDD4E7 /* blue to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31FE09D920444D2C00DDD4E7 /* blue to orange.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3102C995204E4BBF00485F9D /* PausingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausingScreenViewController.swift; sourceTree = "<group>"; };
+		3102C999204F117900485F9D /* orange to pink.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orange to pink.mp4"; sourceTree = "<group>"; };
+		3102C99A204F117900485F9D /* blue to pink.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "blue to pink.mp4"; sourceTree = "<group>"; };
+		3102C99B204F117900485F9D /* pink to blue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pink to blue.mp4"; sourceTree = "<group>"; };
+		3102C99C204F117900485F9D /* start to pink.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "start to pink.mp4"; sourceTree = "<group>"; };
+		3102C99D204F117900485F9D /* orange to blue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orange to blue.mp4"; sourceTree = "<group>"; };
+		3102C99E204F117900485F9D /* start to orange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "start to orange.mp4"; sourceTree = "<group>"; };
+		3102C99F204F117900485F9D /* pink to orange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pink to orange.mp4"; sourceTree = "<group>"; };
+		3102C9A0204F117900485F9D /* start to blue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "start to blue.mp4"; sourceTree = "<group>"; };
+		311109E7237C8D630062E8ED /* correct-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "correct-sound.wav"; sourceTree = "<group>"; };
+		3145D2BB2152D17B00EC16E7 /* Card Match Game Kid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Match Game Kid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3145D2BC2152D17B00EC16E7 /* Card Match Game Kid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Card Match Game Kid-Info.plist"; path = "/Users/buddingadmin/Documents/eryk kids/Card Match Game Kids - Isabelle Kids New Icon/Card Match Game Kid-Info.plist"; sourceTree = "<absolute>"; };
+		315E04E5202F8C450061EF28 /* IDScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScreenViewController.swift; sourceTree = "<group>"; };
+		316168DF205A16C6000D3591 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpauseConfirmationViewController.swift; sourceTree = "<group>"; };
+		31958AA2201CF1C400E32699 /* Card Match Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Match Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31958AA5201CF1C400E32699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31958AA7201CF1C400E32699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31958AAA201CF1C400E32699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31958AAC201CF1C400E32699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31958AAF201CF1C400E32699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31958AB1201CF1C400E32699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31958AB7201CF6E000E32699 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		31958AB9201CFCCF00E32699 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		31958ABB201D1D3000E32699 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		31A80B422042445E00A0F3DA /* GameCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCompleteViewController.swift; sourceTree = "<group>"; };
+		31A80B442043821900A0F3DA /* CSVWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		31A80B4620438F0C00A0F3DA /* PausedHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausedHandler.swift; sourceTree = "<group>"; };
+		31FE09D920444D2C00DDD4E7 /* blue to orange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "blue to orange.mp4"; path = "Card Match Game/Assets.xcassets/blue to orange.dataset/blue to orange.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3145D2A92152D17B00EC16E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31958A9F201CF1C400E32699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311109E6237C8D630062E8ED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				311109E7237C8D630062E8ED /* correct-sound.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		315E04E3202F8BEA0061EF28 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				311109E6237C8D630062E8ED /* sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		31958A99201CF1C400E32699 = {
+			isa = PBXGroup;
+			children = (
+				3102C99A204F117900485F9D /* blue to pink.mp4 */,
+				3102C99D204F117900485F9D /* orange to blue.mp4 */,
+				3102C999204F117900485F9D /* orange to pink.mp4 */,
+				3102C99B204F117900485F9D /* pink to blue.mp4 */,
+				3102C99F204F117900485F9D /* pink to orange.mp4 */,
+				3102C9A0204F117900485F9D /* start to blue.mp4 */,
+				3102C99E204F117900485F9D /* start to orange.mp4 */,
+				3102C99C204F117900485F9D /* start to pink.mp4 */,
+				31FE09D920444D2C00DDD4E7 /* blue to orange.mp4 */,
+				31958AA4201CF1C400E32699 /* Card Match Game */,
+				31958AA3201CF1C400E32699 /* Products */,
+				3145D2BC2152D17B00EC16E7 /* Card Match Game Kid-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		31958AA3201CF1C400E32699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31958AA2201CF1C400E32699 /* Card Match Game.app */,
+				3145D2BB2152D17B00EC16E7 /* Card Match Game Kid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31958AA4201CF1C400E32699 /* Card Match Game */ = {
+			isa = PBXGroup;
+			children = (
+				315E04E3202F8BEA0061EF28 /* Assets */,
+				31958AA5201CF1C400E32699 /* AppDelegate.swift */,
+				315E04E5202F8C450061EF28 /* IDScreenViewController.swift */,
+				31A80B422042445E00A0F3DA /* GameCompleteViewController.swift */,
+				3102C995204E4BBF00485F9D /* PausingScreenViewController.swift */,
+				316168DF205A16C6000D3591 /* InstructionsViewController.swift */,
+				316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */,
+				31958AA7201CF1C400E32699 /* ViewController.swift */,
+				31958ABB201D1D3000E32699 /* CardCollectionViewCell.swift */,
+				31958AB7201CF6E000E32699 /* CardModel.swift */,
+				31958AB9201CFCCF00E32699 /* Card.swift */,
+				31A80B442043821900A0F3DA /* CSVWriter.swift */,
+				31A80B4620438F0C00A0F3DA /* PausedHandler.swift */,
+				31958AA9201CF1C400E32699 /* Main.storyboard */,
+				31958AAC201CF1C400E32699 /* Assets.xcassets */,
+				31958AAE201CF1C400E32699 /* LaunchScreen.storyboard */,
+				31958AB1201CF1C400E32699 /* Info.plist */,
+			);
+			path = "Card Match Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3145D29B2152D17B00EC16E7 /* Card Match Game Kid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3145D2B82152D17B00EC16E7 /* Build configuration list for PBXNativeTarget "Card Match Game Kid" */;
+			buildPhases = (
+				3145D29C2152D17B00EC16E7 /* Sources */,
+				3145D2A92152D17B00EC16E7 /* Frameworks */,
+				3145D2AA2152D17B00EC16E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Match Game Kid";
+			productName = "Card Match Game";
+			productReference = 3145D2BB2152D17B00EC16E7 /* Card Match Game Kid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31958AA1201CF1C400E32699 /* Card Match Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31958AB4201CF1C400E32699 /* Build configuration list for PBXNativeTarget "Card Match Game" */;
+			buildPhases = (
+				31958A9E201CF1C400E32699 /* Sources */,
+				31958A9F201CF1C400E32699 /* Frameworks */,
+				31958AA0201CF1C400E32699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Match Game";
+			productName = "Card Match Game";
+			productReference = 31958AA2201CF1C400E32699 /* Card Match Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31958A9A201CF1C400E32699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Budding Minds Admin";
+				TargetAttributes = {
+					3145D29B2152D17B00EC16E7 = {
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+					};
+					31958AA1201CF1C400E32699 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game Kids - Isabelle edit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31958A99201CF1C400E32699;
+			productRefGroup = 31958AA3201CF1C400E32699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31958AA1201CF1C400E32699 /* Card Match Game */,
+				3145D29B2152D17B00EC16E7 /* Card Match Game Kid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3145D2AA2152D17B00EC16E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3145D2AB2152D17B00EC16E7 /* orange to pink.mp4 in Resources */,
+				3145D2AC2152D17B00EC16E7 /* blue to pink.mp4 in Resources */,
+				3145D2AD2152D17B00EC16E7 /* pink to blue.mp4 in Resources */,
+				3145D2AE2152D17B00EC16E7 /* start to pink.mp4 in Resources */,
+				311109E9237C8D630062E8ED /* correct-sound.wav in Resources */,
+				3145D2AF2152D17B00EC16E7 /* orange to blue.mp4 in Resources */,
+				3145D2B02152D17B00EC16E7 /* start to orange.mp4 in Resources */,
+				3145D2B12152D17B00EC16E7 /* pink to orange.mp4 in Resources */,
+				3145D2B22152D17B00EC16E7 /* start to blue.mp4 in Resources */,
+				3145D2B32152D17B00EC16E7 /* blue to orange.mp4 in Resources */,
+				3145D2B52152D17B00EC16E7 /* LaunchScreen.storyboard in Resources */,
+				3145D2B62152D17B00EC16E7 /* Assets.xcassets in Resources */,
+				3145D2B72152D17B00EC16E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31958AA0201CF1C400E32699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3102C9A1204F117A00485F9D /* orange to pink.mp4 in Resources */,
+				3102C9A2204F117A00485F9D /* blue to pink.mp4 in Resources */,
+				3102C9A3204F117A00485F9D /* pink to blue.mp4 in Resources */,
+				3102C9A4204F117A00485F9D /* start to pink.mp4 in Resources */,
+				3102C9A5204F117A00485F9D /* orange to blue.mp4 in Resources */,
+				3102C9A6204F117A00485F9D /* start to orange.mp4 in Resources */,
+				3102C9A7204F117A00485F9D /* pink to orange.mp4 in Resources */,
+				311109E8237C8D630062E8ED /* correct-sound.wav in Resources */,
+				3102C9A8204F117A00485F9D /* start to blue.mp4 in Resources */,
+				31FE09DA20444D2C00DDD4E7 /* blue to orange.mp4 in Resources */,
+				31958AB0201CF1C400E32699 /* LaunchScreen.storyboard in Resources */,
+				31958AAD201CF1C400E32699 /* Assets.xcassets in Resources */,
+				31958AAB201CF1C400E32699 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3145D29C2152D17B00EC16E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3145D29D2152D17B00EC16E7 /* ViewController.swift in Sources */,
+				3145D29E2152D17B00EC16E7 /* GameCompleteViewController.swift in Sources */,
+				3145D29F2152D17B00EC16E7 /* PausingScreenViewController.swift in Sources */,
+				3145D2A02152D17B00EC16E7 /* AppDelegate.swift in Sources */,
+				3145D2A12152D17B00EC16E7 /* CSVWriter.swift in Sources */,
+				3145D2A22152D17B00EC16E7 /* CardModel.swift in Sources */,
+				3145D2A32152D17B00EC16E7 /* UnpauseConfirmationViewController.swift in Sources */,
+				3145D2A42152D17B00EC16E7 /* InstructionsViewController.swift in Sources */,
+				3145D2A52152D17B00EC16E7 /* IDScreenViewController.swift in Sources */,
+				3145D2A62152D17B00EC16E7 /* PausedHandler.swift in Sources */,
+				3145D2A72152D17B00EC16E7 /* CardCollectionViewCell.swift in Sources */,
+				3145D2A82152D17B00EC16E7 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31958A9E201CF1C400E32699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31958AA8201CF1C400E32699 /* ViewController.swift in Sources */,
+				31A80B432042445E00A0F3DA /* GameCompleteViewController.swift in Sources */,
+				3102C996204E4BBF00485F9D /* PausingScreenViewController.swift in Sources */,
+				31958AA6201CF1C400E32699 /* AppDelegate.swift in Sources */,
+				31A80B452043821900A0F3DA /* CSVWriter.swift in Sources */,
+				31958AB8201CF6E000E32699 /* CardModel.swift in Sources */,
+				316168E2205A1745000D3591 /* UnpauseConfirmationViewController.swift in Sources */,
+				316168E0205A16C6000D3591 /* InstructionsViewController.swift in Sources */,
+				315E04E6202F8C450061EF28 /* IDScreenViewController.swift in Sources */,
+				31A80B4720438F0C00A0F3DA /* PausedHandler.swift in Sources */,
+				31958ABC201D1D3000E32699 /* CardCollectionViewCell.swift in Sources */,
+				31958ABA201CFCCF00E32699 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31958AA9201CF1C400E32699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31958AAA201CF1C400E32699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31958AAE201CF1C400E32699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31958AAF201CF1C400E32699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3145D2B92152D17B00EC16E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Kid";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77A4G5NWW9;
+				INFOPLIST_FILE = "Card Match Game Kid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game-Kid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3145D2BA2152D17B00EC16E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Kid";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77A4G5NWW9;
+				INFOPLIST_FILE = "Card Match Game Kid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game-Kid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		31958AB2201CF1C400E32699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		31958AB3201CF1C400E32699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31958AB5201CF1C400E32699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77A4G5NWW9;
+				INFOPLIST_FILE = "Card Match Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		31958AB6201CF1C400E32699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77A4G5NWW9;
+				INFOPLIST_FILE = "Card Match Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3145D2B82152D17B00EC16E7 /* Build configuration list for PBXNativeTarget "Card Match Game Kid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3145D2B92152D17B00EC16E7 /* Debug */,
+				3145D2BA2152D17B00EC16E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game Kids - Isabelle edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31958AB2201CF1C400E32699 /* Debug */,
+				31958AB3201CF1C400E32699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31958AB4201CF1C400E32699 /* Build configuration list for PBXNativeTarget "Card Match Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31958AB5201CF1C400E32699 /* Debug */,
+				31958AB6201CF1C400E32699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31958A9A201CF1C400E32699 /* Project object */;
+}
