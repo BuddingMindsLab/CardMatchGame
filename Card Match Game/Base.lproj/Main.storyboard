@@ -326,12 +326,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shL-mr-Byi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shL-mr-Byi">
                                 <rect key="frame" x="-1.483277591974911" y="0.0" width="1366" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.3943439640410959" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aWO-l0-E8l">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aWO-l0-E8l">
                                 <rect key="frame" x="500" y="315" width="366" height="277.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="Lmf-qH-Uqd">
@@ -395,9 +394,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-SZ-i5s">
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-SZ-i5s">
                                 <rect key="frame" x="641" y="652" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="safeArea" id="yVS-64-7VN"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Start">
@@ -411,11 +409,19 @@
                         <viewLayoutGuide key="safeArea" id="cST-91-OrL"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="HR0-SZ-i5s" firstAttribute="leading" secondItem="cST-91-OrL" secondAttribute="leading" constant="641" id="PPi-jW-QQn"/>
                             <constraint firstItem="aWO-l0-E8l" firstAttribute="centerX" secondItem="x1k-Pv-XEl" secondAttribute="centerX" id="QDg-OZ-kIm"/>
+                            <constraint firstItem="shL-mr-Byi" firstAttribute="centerX" secondItem="HR0-SZ-i5s" secondAttribute="centerX" id="Qcv-vD-j8i"/>
+                            <constraint firstItem="shL-mr-Byi" firstAttribute="bottom" secondItem="cST-91-OrL" secondAttribute="bottom" id="Ykc-H2-sf8"/>
+                            <constraint firstItem="cST-91-OrL" firstAttribute="trailing" secondItem="HR0-SZ-i5s" secondAttribute="trailing" constant="645" id="cWS-fX-MKh"/>
+                            <constraint firstItem="HR0-SZ-i5s" firstAttribute="top" secondItem="aWO-l0-E8l" secondAttribute="bottom" constant="59.5" id="cfd-vI-YHT"/>
                             <constraint firstItem="aWO-l0-E8l" firstAttribute="centerX" secondItem="x1k-Pv-XEl" secondAttribute="centerX" id="gVv-vp-BQb"/>
+                            <constraint firstItem="cST-91-OrL" firstAttribute="trailing" secondItem="shL-mr-Byi" secondAttribute="trailing" constant="1.483277591974911" id="kVW-Ij-Tzk"/>
                             <constraint firstItem="aWO-l0-E8l" firstAttribute="centerX" secondItem="x1k-Pv-XEl" secondAttribute="centerX" id="lhZ-4X-Suz"/>
+                            <constraint firstItem="aWO-l0-E8l" firstAttribute="top" secondItem="cST-91-OrL" secondAttribute="top" constant="295" id="mSN-ww-wpw"/>
                             <constraint firstItem="aWO-l0-E8l" firstAttribute="leading" secondItem="cST-91-OrL" secondAttribute="leading" constant="500" id="poK-Gs-1Fc"/>
                             <constraint firstItem="aWO-l0-E8l" firstAttribute="centerX" secondItem="x1k-Pv-XEl" secondAttribute="centerX" id="vBc-0f-4Ge"/>
+                            <constraint firstItem="shL-mr-Byi" firstAttribute="centerY" secondItem="x1k-Pv-XEl" secondAttribute="centerY" id="ysm-e3-cUC"/>
                         </constraints>
                     </view>
                     <connections>
