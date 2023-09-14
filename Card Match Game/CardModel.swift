@@ -350,7 +350,7 @@ class CardModel{
         
         
         // A = pink, B = blue, C = orange
-        switch id % 16 {
+        switch (id - 1) {
             case 0:
                 orderArray.append(order_A)
                 orderArray.append(order_B)
