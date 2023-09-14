@@ -44,6 +44,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var firstCard:IndexPath? // The first card flipped by user
 
     var participId: Int = 0 // Set to the participant ID entered on the first screen
+    var groupNum: Int = 0
     var expName: String = ""
     
     var trialWidth: CGFloat = 0.0
@@ -100,7 +101,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidAppear(_ animated: Bool) {
         print("the phase is: \(phase)")
-        participId = Int(participantId)!
+        // participId = Int(participantId)!
+        groupNum = Int(groupNumber)!
         expName = experimentName
         
         collectionView.delegate = self
@@ -118,7 +120,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         
         // Sets up the orderArray with the proper order depending on id
-        model.setOrderArray(id: participId)
+        model.setOrderArray(id: groupNum)
         
         cardArray = model.getMatchingCards(phase: phase)
         
