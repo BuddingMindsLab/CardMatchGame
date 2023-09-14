@@ -213,18 +213,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         // 1 - experiment name
         currentLine.append(expName)
         
-        // 2 - group ID
-        var gid = (participId % 16) + 1
-        
-        if gid == 13 {
-            gid = 1
-        } else if gid == 14 {
-            gid = 2
-        } else if gid == 15 {
-            gid = 3
-        } else if gid == 16 {
-            gid = 4
-        }
+        // 2 - group ID        
+        var gid = groupNum
         
         currentLine.append(String(gid))
         
