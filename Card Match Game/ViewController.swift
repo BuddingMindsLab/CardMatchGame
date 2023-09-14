@@ -101,7 +101,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidAppear(_ animated: Bool) {
         print("the phase is: \(phase)")
-        // participId = Int(participantId)!
+        participId = Int(participantId)!
         groupNum = Int(groupNumber)!
         expName = experimentName
         
