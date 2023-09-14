@@ -11,6 +11,7 @@ import AVKit
 
 var participantId = ""
 var experimentName = "version1"
+var groupNumber = ""
 var unpausing = false
 
 extension UIViewController {
@@ -39,24 +40,32 @@ class IDScreenViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var idTextBox: UITextField!
     @IBOutlet weak var nameTextBox: UITextField!
+    @IBOutlet weak var groupTextBox: UITextField!
     
     var pausedHandler = PausedHandler()
     
     // When the submit button pressed, check if this user ID is paused and handle accordingly
     @IBAction func submitPressed(_ sender: UIButton) {
-        if (idTextBox.text != "") {
+        if (idTextBox.text != "" && groupTextBox.text != "") {
             participantId = idTextBox.text!
-            
+            groupNumber = groupTextBox.text!
+
             if nameTextBox.text != "" {
                 experimentName = nameTextBox.text!
-            } 
+            }
+            
             print("expName: \(experimentName)")
-            let num = Int(participantId)
+            let participantIdNum = Int(participantId)
+            let groupNumberNum = Int(groupNumber)
             
             checkPaused()
             
-            if num == nil {
+            if participantIdNum == nil {
                 showToast(message: "Please enter a numeric ID")
+            }
+            
+            if groupNumberNum == nil {
+                showToast(message: "Please enter a numeric group number")
             }
         }
     }
@@ -84,6 +93,7 @@ class IDScreenViewController: UIViewController, UITextFieldDelegate {
     // Hide the keyboard when the return key is pressed
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         idTextBox.resignFirstResponder()
+        groupTextBox.resignFirstResponder()
         nameTextBox.resignFirstResponder()
         return (true)
     }
@@ -92,6 +102,7 @@ class IDScreenViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         self.idTextBox.delegate = self
+        self.groupTextBox.delegate = self
         self.nameTextBox.delegate = self
         
         nameTextBox.text = experimentName

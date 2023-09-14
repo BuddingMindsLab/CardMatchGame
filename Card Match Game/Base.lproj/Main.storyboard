@@ -425,8 +425,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="groupTextBox" destination="Jh5-aJ-jpT" id="qTy-Ga-XBC"/>
                         <outlet property="idTextBox" destination="2Sy-yR-bFC" id="TX5-bu-JkU"/>
-                        <outlet property="nameTextBox" destination="zzC-I7-OyA" id="ywQ-d7-18s"/>
+                        <outlet property="nameTextBox" destination="zzC-I7-OyA" id="Gaj-bm-Um1"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="idToGame" id="5zR-bb-Uc9"/>
                         <segue destination="zaN-lw-LnM" kind="show" identifier="idToInstr" id="gek-0k-4gb"/>
                         <segue destination="k4w-aJ-XE3" kind="show" identifier="idToUnpauseCheck" id="XOA-fq-lKQ"/>
