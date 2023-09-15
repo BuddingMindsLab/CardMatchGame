@@ -120,7 +120,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         
         // Sets up the orderArray with the proper order depending on id
-        model.setOrderArray(id: groupNum)
+        model.setOrderArray(groupNumber: groupNum)
         
         cardArray = model.getMatchingCards(phase: phase)
         

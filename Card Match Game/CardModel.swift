@@ -344,13 +344,13 @@ class CardModel{
     }
     
     // Initialize the orders and set the orders array which determines what layouts they'll see
-    // in what order based on id number
-    func setOrderArray(id: Int) {
+    // in what order based on group number
+    func setOrderArray(groupNumber: Int) {
         initOrders()
         
         
         // A = pink, B = blue, C = orange
-        switch (id - 1) {
+        switch (groupNumber - 1) {
             case 0:
                 orderArray.append(order_A)
                 orderArray.append(order_B)
@@ -576,7 +576,7 @@ class CardModel{
                 bckgArray.append(blue)
                 bckgArray.append(pink)
             default:
-                print("Error with participant ID")
+                print("Error with group number")
         }
         
         var newOrderArray = [[CGPoint]]()
